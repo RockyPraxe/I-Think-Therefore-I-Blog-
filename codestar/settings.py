@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-rockypraxe-ithinktheref-onrfrr8red7.ws-eu104.gitpod.io']
-ALLOWED_HOSTS = ['blog-walktrough.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['blog-walktrough-e6f16f6a1892.herokuapp.com', 'localhost']
 
 
 # Application definition
