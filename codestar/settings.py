@@ -16,6 +16,7 @@ import dj_database_url
 if os.path.isfile('env.py'):
     import env
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
@@ -30,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['8000-rockypraxe-ithinktheref-onrfrr8red7.ws-eu104.gitpod.io']
+ALLOWED_HOSTS = ['8000-rockypraxe-ithinktheref-onrfrr8red7.ws-eu104.gitpod.io']
 ALLOWED_HOSTS = ['blog-walktrough-e6f16f6a1892.herokuapp.com', 'localhost']
 
 
